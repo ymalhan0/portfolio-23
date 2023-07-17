@@ -1,0 +1,342 @@
+html,
+body {
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #ffffff;
+    background-repeat: repeat;
+    font-family: 'Helvetica', 'Lato', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+a {
+    color: #ABADB5;
+}
+
+
+
+/* Style the header with a grey background and some padding */
+.header {
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 20px 20px;
+  }
+
+.header img {
+    max-width: 60px;
+    float: left;
+}
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: #696767;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    font-size: 20px; 
+    line-height: 20px;
+    border-radius: 4px;
+  }
+  
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    color: #3F346E;
+    background-color: #FBFCFF;
+  }
+  
+  /* Style the active/current link*/
+  .header a.active {
+    color: #3F346E;
+    
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+  }
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */ 
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+
+
+.landing_title {
+    font-family: "Lato";
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 0.02em;
+    color: #3F346E;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    
+}
+
+.cat_img {
+    max-width: 600px;
+    margin-right: 10vw;
+}
+
+.h1 {
+    font-family: "Lato";
+    font-weight: 500;
+    font-size: 28px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-top: 27vh;
+    margin-left: 16vw;
+    width: 70%;
+
+}
+
+.h2 {
+    font-family: "Lato";
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-top: 5vh;
+    margin-left: 10vw;
+    width: 70%;
+
+}
+
+.h3 {
+    font-family: "Lato";
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    width: 70%;
+    
+}
+
+.selectedWork {
+    margin-top: 1vh;
+    font-family: "Helvetica Neue";
+    font-weight: 500;
+    font-size: 32px;
+    letter-spacing: 0.02em;
+    color: #282D46;
+    margin-left: 16vw;
+    width: 80%;
+}
+
+/* Layout: */
+
+.container {
+    max-width: 68%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+}
+
+.col {
+    padding: 1em;
+    margin: 0 2px 2px 0;
+}
+
+
+.col-main {
+    flex: 1;
+    max-width: 35vh;
+}
+
+.col-complementary {
+    flex: 1;
+}
+
+.selected-work-body {
+    margin-top: 170px;
+}
+
+.selected-work-subheading a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.64px;
+    text-align: left;
+}
+
+.selected-work-body a {
+    text-decoration: none;
+    color: #282D46;
+    font-size: 32px;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.64px;
+    text-align: left;
+}
+
+.selected-work-body a:hover {
+    color: #A3ABD0;
+    transition: all 0.5s ease;
+}
+
+.col-complementary {
+    margin-left: 26vh;
+    margin-left: 6vh;
+    max-width: 76vh;
+}
+
+.col .col-complementary:hover {
+    opacity: 0.6;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+
+
+h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.footer {
+    position: relative;
+    background-color: #282D46;
+    background-image: url("images/footer background.svg");
+    bottom: -8vw;
+    width: 100%;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    letter-spacing: 0.01em;
+    color: #A3ABD0;
+    padding: 15px;
+}
+
+.sm-links {
+    margin-left: 13vw;
+    padding-top: 15px;
+}
+
+.sm-links img {
+    display: inline-block;
+    width: 20px;
+}
+
+/* Responsive: */
+
+@media only screen and (min-width: 640px) {
+    .layout {
+        display: flex;
+    }
+}
+
+
+
+/* etc */
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer p {
+    margin-left: 14vw;
+    width: 80%;
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 992px) {
+    .title {
+        font-size: 32px;
+    }
+
+    .title a {
+        font-size: 16px;
+        padding: 8px 21px;
+    }
+
+    .selectedWork {
+        margin-top: 22vh;
+    }
+
+    .container {
+        margin-top: 0;
+    }
+
+    .col-main {
+        max-width: 100%;
+        margin-left: -12px;
+    }
+
+    .col-complementary {
+        margin-left: -2vh;
+        max-width: 46vh;
+    }
+
+    .selected-work-body {
+        margin-top: 0;
+    }
+
+    .selected-work-body a {
+        margin: 0;
+        font-size: 24px;
+    }
+
+
+    .columns .column .two-column {
+        margin-bottom: 5px;
+        flex-basis: 40%;
+
+        &:nth-last-child(2) {
+            margin-right: 0;
+        }
+
+        &:last-child {
+            flex-basis: 100%;
+            margin: 0;
+        }
+    }
+
+    .carousel {
+        font-size: 46px;
+    }
+
+    ul.slides {
+        height: 31vh;
+    }
+
+    .carousel-dots {
+        top: 40vh;
+    }
+
+    .carousel-dot {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+@media screen and (max-width: 680px) {}
+
+@media (min-width: 1200px) {
+    .carousel-dots {
+        top: 26vh;
+    }
+}
