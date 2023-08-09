@@ -19,6 +19,11 @@ a {
 }
 
 
+.boxLand {
+    background-image: linear-gradient(#E3DDFF, white 50%);
+    display: block;
+    padding: 1.25rem;
+  }
 
 /* Style the header with a grey background and some padding */
 .header {
@@ -79,6 +84,10 @@ a {
     }
   }
 
+  .footerO {
+    background-color: #F6F4FF;
+    padding: 3rem 1.5rem 3rem;
+  }
 
 .landing_title {
     font: "Lato";
@@ -115,13 +124,13 @@ a {
 
 .h2Landing {
     font: "Lato";
-    font-weight: 500;
-    font-size: 24px;
+    font-weight: 400;
+    font-size: 20px;
     letter-spacing: 0.02em;
     color: #000000;
     margin-top: 5vh;
     margin-left: 3.5vw;
-    width: 70%;
+    
 }
 
 .h3 {
@@ -142,127 +151,195 @@ a {
 
 .h3Bundling {
     font: "Lato";
-    font-weight: 300;
+    font-weight: 400;
     font-size: 18px;
     letter-spacing: 0.02em;
     color: #B7384D;
 }
 .h3Ad {
     font: "Lato";
-    font-weight: 300;
+    font-weight: 400;
     font-size: 18px;
     letter-spacing: 0.02em;
     color: #373BC3;
 }
-.h3Food {
+.h3Eco {
     font: "Lato";
-    font-weight: 300;
+    font-weight: 400;
     font-size: 18px;
     letter-spacing: 0.02em;
     color: #907B6E;
 }
 
-.selectedWork {
-    margin-top: 1vh;
-    font-family: "Helvetica Neue";
-    font-weight: 500;
-    font-size: 32px;
-    letter-spacing: 0.02em;
-    color: #282D46;
-    margin-left: 16vw;
-    width: 80%;
-}
+.buttonSupport {
+    background-color: white;
+    border-color: #dbdbdb;
+    border-width: 1px;
+    color: #3086FF;
+    cursor: pointer;
+    justify-content: center;
+    padding-bottom: calc(0.375em - 1px);
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    padding-top: calc(0.375em - 1px);
+    text-align: center;
+    white-space: nowrap;
+    font-size: 18px;
+  }
+
+  .buttonSupport.is-link {
+    background-color: #3086FF;
+    border-color: transparent;
+    color: #fff;
+  }
+  .buttonSupport.is-link.is-outlined {
+    background-color: transparent;
+    border-color: #3086FF;
+    color: #3086FF;
+  }
+  
+  .buttonSupport.is-link.is-outlined:hover, .button.is-link.is-outlined:focus {
+    background-color: #3086FF;
+    border-color: #3086FF;
+    color: #fff;
+  }
+  .buttonSupport.is-fullwidth {
+    display: flex;
+    width: 100%;
+  }
+  .buttonSupport.is-rounded {
+    border-radius: 290486px;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+
+  .buttonAd {
+    background-color: white;
+    border-color: #dbdbdb;
+    border-width: 1px;
+    color: #363636;
+    cursor: pointer;
+    justify-content: center;
+    padding-bottom: calc(0.375em - 1px);
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    padding-top: calc(0.375em - 1px);
+    text-align: center;
+    white-space: nowrap;
+    font-size: 18px;
+  }
+
+  .buttonAd.is-link {
+    background-color: #373BC3;
+    border-color: transparent;
+    color: #fff;
+  }
+  .buttonAd.is-link.is-outlined {
+    background-color: transparent;
+    border-color: #373BC3;
+    color: #373BC3;
+  }
+  
+  .buttonAd.is-link.is-outlined:hover, .button.is-link.is-outlined:focus {
+    background-color: #373BC3;
+    border-color: #373BC3;
+    color: #fff;
+  }
+  .buttonAd.is-fullwidth {
+    display: flex;
+    width: 100%;
+  }
+  .buttonAd.is-rounded {
+    border-radius: 290486px;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+
+  .buttonBundling {
+    background-color: white;
+    border-color: #dbdbdb;
+    border-width: 1px;
+    color: #B7384D;
+    cursor: pointer;
+    justify-content: center;
+    padding-bottom: calc(0.375em - 1px);
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    padding-top: calc(0.375em - 1px);
+    text-align: center;
+    white-space: nowrap;
+    font-size: 18px;
+  }
+
+  .buttonBundling.is-link {
+    background-color: #B7384D;
+    border-color: transparent;
+    color: #fff;
+  }
+  .buttonBundling.is-link.is-outlined {
+    background-color: transparent;
+    border-color: #B7384D;
+    color: #B7384D;
+  }
+  
+  .buttonBundling.is-link.is-outlined:hover, .button.is-link.is-outlined:focus {
+    background-color: #B7384D;
+    border-color: #B7384D;
+    color: #fff;
+  }
+  .buttonBundling.is-fullwidth {
+    display: flex;
+    width: 100%;
+  }
+  .buttonBundling.is-rounded {
+    border-radius: 290486px;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+
+  .buttonEco {
+    background-color: white;
+    border-color: #dbdbdb;
+    border-width: 1px;
+    color: #907B6E;
+    cursor: pointer;
+    justify-content: center;
+    padding-bottom: calc(0.375em - 1px);
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    padding-top: calc(0.375em - 1px);
+    text-align: center;
+    white-space: nowrap;
+    font-size: 18px;
+  }
+  .buttonEco.is-link {
+    background-color: #907B6E;
+    border-color: transparent;
+    color: #fff;
+  }
+  .buttonEco.is-link.is-outlined {
+    background-color: transparent;
+    border-color: #907B6E;
+    color: #907B6E;
+  }
+  
+  .buttonEco.is-link.is-outlined:hover, .button.is-link.is-outlined:focus {
+    background-color: #907B6E;
+    border-color: #907B6E;
+    color: #fff;
+  }
+  .buttonEco.is-fullwidth {
+    display: flex;
+    width: 100%;
+  }
+  .buttonEco.is-rounded {
+    border-radius: 290486px;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
 
 
 
-
-
-/* etc */
-
-.footer a {
-    text-decoration: none;
-}
-
-.footer p {
-    margin-left: 14vw;
-    width: 80%;
-    padding-top: 15px;
-}
-
-@media screen and (max-width: 992px) {
-    .title {
-        font-size: 32px;
-    }
-
-    .title a {
-        font-size: 16px;
-        padding: 8px 21px;
-    }
-
-    .selectedWork {
-        margin-top: 22vh;
-    }
-
-    .container {
-        margin-top: 0;
-    }
-
-    .col-main {
-        max-width: 100%;
-        margin-left: -12px;
-    }
-
-    .col-complementary {
-        margin-left: -2vh;
-        max-width: 46vh;
-    }
-
-    .selected-work-body {
-        margin-top: 0;
-    }
-
-    .selected-work-body a {
-        margin: 0;
-        font-size: 24px;
-    }
-
-
-    .columns .column .two-column {
-        margin-bottom: 5px;
-        flex-basis: 40%;
-
-        &:nth-last-child(2) {
-            margin-right: 0;
-        }
-
-        &:last-child {
-            flex-basis: 100%;
-            margin: 0;
-        }
-    }
-
-    .carousel {
-        font-size: 46px;
-    }
-
-    ul.slides {
-        height: 31vh;
-    }
-
-    .carousel-dots {
-        top: 40vh;
-    }
-
-    .carousel-dot {
-        width: 10px;
-        height: 10px;
-    }
-}
-
-@media screen and (max-width: 680px) {}
-
-@media (min-width: 1200px) {
-    .carousel-dots {
-        top: 26vh;
-    }
-}
