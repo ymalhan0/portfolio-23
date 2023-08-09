@@ -14,81 +14,6 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
-a {
-    color: #ABADB5;
-}
-
-
-.boxLand {
-    background-image: linear-gradient(#E3DDFF, white 50%);
-    display: block;
-    padding: 1.25rem;
-  }
-
-/* Style the header with a grey background and some padding */
-.header {
-    overflow: hidden;
-    background-color: #F6F4FF;
-    padding: 10px;
-    position: sticky;
-    top: 0;
-    box-shadow: 0 -6px 10px 5px rgba(216,201,251,1.0);
-    z-index:1;
-  }
-
-.header img {
-    max-width: 60px;
-    float: left;
-}
-  
-  /* Style the header links */
-  .header a {
-    float: left;
-    color: #696767;
-    text-align: center;
-    padding: 20px;
-    letter-spacing: 0.1em;
-    text-decoration: none;
-    font-size: 20px; 
-    line-height: 40px;
-    border-radius: 4px;
-  }
-  
-  
-  /* Change the background color on mouse-over */
-  .header a:hover {
-    color: #3F346E;
-    background-color: #FBFCFF;
-  }
-  
-  /* Style the active/current link*/
-  .header a.active {
-    color: #3F346E;
-    
-  }
-  
-  /* Float the link section to the right */
-  .header-right {
-    float: right;
-  }
-  
-  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */ 
-  @media screen and (max-width: 500px) {
-    .header a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    .header-right {
-      float: none;
-    }
-  }
-
-  .footerO {
-    background-color: #F6F4FF;
-    padding: 3rem 1.5rem 3rem;
-  }
-
 .landing_title {
     font: "Lato";
     font-weight: 500;
@@ -97,12 +22,7 @@ a {
     color: #3F346E;
     margin-top: 10vh;
     margin-left: 3.5vw;
-    
-}
 
-.cat_img {
-    max-width: 600px;
-    margin-right: 10vw;
 }
 
 .h1 {
@@ -130,7 +50,7 @@ a {
     color: #000000;
     margin-top: 5vh;
     margin-left: 3.5vw;
-    
+
 }
 
 .h3 {
@@ -156,6 +76,7 @@ a {
     letter-spacing: 0.02em;
     color: #B7384D;
 }
+
 .h3Ad {
     font: "Lato";
     font-weight: 400;
@@ -163,6 +84,7 @@ a {
     letter-spacing: 0.02em;
     color: #373BC3;
 }
+
 .h3Eco {
     font: "Lato";
     font-weight: 400;
@@ -173,7 +95,7 @@ a {
 
 .buttonSupport {
     background-color: white;
-    border-color: #dbdbdb;
+    border-color: #3086FF;
     border-width: 1px;
     color: #3086FF;
     cursor: pointer;
@@ -185,36 +107,40 @@ a {
     text-align: center;
     white-space: nowrap;
     font-size: 18px;
-  }
+}
 
-  .buttonSupport.is-link {
+.buttonSupport.is-link {
     background-color: #3086FF;
     border-color: transparent;
     color: #fff;
-  }
-  .buttonSupport.is-link.is-outlined {
+}
+
+.buttonSupport.is-link.is-outlined {
     background-color: transparent;
     border-color: #3086FF;
     color: #3086FF;
-  }
-  
-  .buttonSupport.is-link.is-outlined:hover, .button.is-link.is-outlined:focus {
+}
+
+.buttonSupport.is-link.is-outlined:hover,
+.button.is-link.is-outlined:focus {
     background-color: #3086FF;
     border-color: #3086FF;
     color: #fff;
-  }
-  .buttonSupport.is-fullwidth {
+}
+
+.buttonSupport.is-fullwidth {
     display: flex;
     width: 100%;
-  }
-  .buttonSupport.is-rounded {
+}
+
+.buttonSupport.is-rounded {
     border-radius: 290486px;
     padding-left: 1em;
     padding-right: 1em;
-  }
+}
 
 
-  .buttonAd {
+.buttonAd {
     background-color: white;
     border-color: #dbdbdb;
     border-width: 1px;
@@ -228,36 +154,40 @@ a {
     text-align: center;
     white-space: nowrap;
     font-size: 18px;
-  }
+}
 
-  .buttonAd.is-link {
+.buttonAd.is-link {
     background-color: #373BC3;
     border-color: transparent;
     color: #fff;
-  }
-  .buttonAd.is-link.is-outlined {
+}
+
+.buttonAd.is-link.is-outlined {
     background-color: transparent;
     border-color: #373BC3;
     color: #373BC3;
-  }
-  
-  .buttonAd.is-link.is-outlined:hover, .button.is-link.is-outlined:focus {
+}
+
+.buttonAd.is-link.is-outlined:hover,
+.button.is-link.is-outlined:focus {
     background-color: #373BC3;
     border-color: #373BC3;
     color: #fff;
-  }
-  .buttonAd.is-fullwidth {
+}
+
+.buttonAd.is-fullwidth {
     display: flex;
     width: 100%;
-  }
-  .buttonAd.is-rounded {
+}
+
+.buttonAd.is-rounded {
     border-radius: 290486px;
     padding-left: 1em;
     padding-right: 1em;
-  }
+}
 
 
-  .buttonBundling {
+.buttonBundling {
     background-color: white;
     border-color: #dbdbdb;
     border-width: 1px;
@@ -271,36 +201,40 @@ a {
     text-align: center;
     white-space: nowrap;
     font-size: 18px;
-  }
+}
 
-  .buttonBundling.is-link {
+.buttonBundling.is-link {
     background-color: #B7384D;
     border-color: transparent;
     color: #fff;
-  }
-  .buttonBundling.is-link.is-outlined {
+}
+
+.buttonBundling.is-link.is-outlined {
     background-color: transparent;
     border-color: #B7384D;
     color: #B7384D;
-  }
-  
-  .buttonBundling.is-link.is-outlined:hover, .button.is-link.is-outlined:focus {
+}
+
+.buttonBundling.is-link.is-outlined:hover,
+.button.is-link.is-outlined:focus {
     background-color: #B7384D;
     border-color: #B7384D;
     color: #fff;
-  }
-  .buttonBundling.is-fullwidth {
+}
+
+.buttonBundling.is-fullwidth {
     display: flex;
     width: 100%;
-  }
-  .buttonBundling.is-rounded {
+}
+
+.buttonBundling.is-rounded {
     border-radius: 290486px;
     padding-left: 1em;
     padding-right: 1em;
-  }
+}
 
 
-  .buttonEco {
+.buttonEco {
     background-color: white;
     border-color: #dbdbdb;
     border-width: 1px;
@@ -314,32 +248,34 @@ a {
     text-align: center;
     white-space: nowrap;
     font-size: 18px;
-  }
-  .buttonEco.is-link {
+}
+
+.buttonEco.is-link {
     background-color: #907B6E;
     border-color: transparent;
     color: #fff;
-  }
-  .buttonEco.is-link.is-outlined {
+}
+
+.buttonEco.is-link.is-outlined {
     background-color: transparent;
     border-color: #907B6E;
     color: #907B6E;
-  }
-  
-  .buttonEco.is-link.is-outlined:hover, .button.is-link.is-outlined:focus {
+}
+
+.buttonEco.is-link.is-outlined:hover,
+.button.is-link.is-outlined:focus {
     background-color: #907B6E;
     border-color: #907B6E;
     color: #fff;
-  }
-  .buttonEco.is-fullwidth {
+}
+
+.buttonEco.is-fullwidth {
     display: flex;
     width: 100%;
-  }
-  .buttonEco.is-rounded {
+}
+
+.buttonEco.is-rounded {
     border-radius: 290486px;
     padding-left: 1em;
     padding-right: 1em;
-  }
-
-
-
+}
