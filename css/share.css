@@ -1,0 +1,21 @@
+html,
+body {
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #ffffff;
+    background-repeat: repeat;
+    font-family: 'Helvetica', 'Lato', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+.boxShare {
+    background-color: #eae7f8;
+    display: block;
+    padding: 1.25rem;
+}
