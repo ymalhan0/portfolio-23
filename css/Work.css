@@ -1,0 +1,234 @@
+html,
+body {
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #ffffff;
+    background-repeat: repeat;
+    font-family: 'Helvetica', 'Lato', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+.boxWork {
+    background-color: #eae7f8;
+    display: block;
+    padding: 1.25rem;
+}
+
+.work_title {
+    font: "Lato";
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 0.02em;
+    color: #3F346E;
+    margin-top: 5vh;
+    margin-left: 3.5vw;
+
+}
+
+.work_subtitle {
+    font: "Lato";
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: 3.5vw;
+    margin-bottom: 4vh;
+
+}
+
+/* Cards */
+
+.h3Share {
+    font: "Lato";
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #3086FF;
+}
+
+.h3Brand {
+    font: "Lato";
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #907B6E;
+}
+
+.h3Intra {
+    font: "Lato";
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #A099A0;
+}
+
+.h3Eco {
+    font: "Lato";
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #907B6E;
+}
+
+.h3Sked {
+    font: "Lato";
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #817BDC;
+}
+
+.h3P101 {
+    font: "Lato";
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #A97FC9;
+}
+
+.buttonCards {
+    border: 1px solid black;
+    background-color: white;
+    font-size: 18px;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 18px;
+    border-radius: 290486px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/* Work Header */
+.backHome {
+    border-color: #3F346E;
+    color: #3F346E;
+    background-color: #eae7f8;
+    padding-left: 4em;
+    padding-right: 4em;
+    margin-left: 3.5vw;
+}
+
+.backHome:hover {
+    background-color: #3F346E;
+    color: white;
+}
+
+.Share {
+    border-color: #3086FF;
+    color: #3086FF;
+    display: flex;
+    width: 100%;
+}
+
+.Share:hover {
+    background-color: #3086FF;
+    color: white;
+}
+
+.Brand {
+    border-color: #aa8e7c;
+    color: #aa8e7c;
+    display: flex;
+    width: 100%;
+}
+
+.Brand:hover {
+    background-color: #aa8e7c;
+    color: white;
+}
+
+.Intra {
+    border-color: #A099A0;
+    color: #A099A0;
+    display: flex;
+    width: 100%;
+}
+
+.Intra:hover {
+    background-color: #A099A0;
+    color: white;
+}
+
+.Eco {
+    border-color: #907B6E;
+    color: #907B6E;
+    display: flex;
+    width: 100%;
+}
+
+.Eco:hover {
+    background-color: #907B6E;
+    color: white;
+}
+
+.Sked {
+    border-color: #817BDC;
+    color: #817BDC;
+    display: flex;
+    width: 100%;
+}
+
+.Sked:hover {
+    background-color: #817BDC;
+    color: white;
+}
+
+.P101 {
+    border-color: #A97FC9;
+    color: #A97FC9;
+    display: flex;
+    width: 100%;
+}
+
+.P101:hover {
+    background-color: #A97FC9;
+    color: white;
+}
+
+/* Selected Work */
+
+.Support {
+    border-color: #3086FF;
+    color: #3086FF;
+    display: flex;
+    width: 100%;
+}
+
+.Support:hover {
+    background-color: #3086FF;
+    color: white;
+}
+
+.Bundling {
+    border-color: #B7384D;
+    color: #B7384D;
+    display: flex;
+    width: 100%;
+}
+
+.Bundling:hover {
+    background-color: #B7384D;
+    color: white;
+}
+
+.Ads {
+    border-color: #373BC3;
+    color: #373BC3;
+    display: flex;
+    width: 100%;
+}
+
+.Ads:hover {
+    background-color: #373BC3;
+    color: white;
+}
