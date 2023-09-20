@@ -18,4 +18,81 @@ body {
     background-color: #eae7f8;
     display: block;
     padding: 1.25rem;
+    padding-bottom: 3rem;
+}
+
+.boxDecor {
+    background-color: #DFC3B5;
+    display: flex;
+    padding: 1.25rem;
+    padding-bottom: 3rem;
+}
+
+.head_Share_title {
+    font: "Lato";
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 0.02em;
+    color: #3F346E;
+    margin-top: 4vh;
+    margin-left: 3.5vw;
+
+}
+
+.head_Share_h1 {
+    font: "Lato";
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    margin-top: 4vh;
+    margin-left: 3.5vw;
+    color: #3F346E;
+}
+
+.head_Share_h2 {
+    font: "Lato";
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    margin-top: 1vh;
+    margin-left: 3.5vw;
+    color: #3F346E;
+}
+
+/* Section Headers */
+
+.h2 {
+    font: "Lato";
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-top: 1vh;
+    margin-left: 3.5vw;
+    margin-right: 3.5vw;
+
+}
+
+/* Paragraph text */
+
+.h3 {
+    font: "Lato";
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-top: 1vh;
+    margin-left: 3.5vw;
+    margin-right: 3.5vw;
+}
+
+.h3_purple_bold {
+    font: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #3F346E;
+    margin-top: 1vh;
+    margin-left: 3.5vw;
+    margin-right: 3.5vw;
 }
