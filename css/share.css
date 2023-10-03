@@ -22,8 +22,9 @@ body {
 }
 
 .boxDecor {
-    background-color: #DFC3B5;
+    background-color: #F4F4F8;
     display: flex;
+    width: 100%;
     padding: 1.25rem;
     padding-bottom: 3rem;
 }
@@ -72,6 +73,16 @@ body {
     margin-right: 3.5vw;
 
 }
+.h2NoMargin {
+    font: "Lato";
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    color: #000000;
+
+
+}
+
 
 /* Paragraph text */
 
