@@ -19,6 +19,8 @@ a {
 
 }
 
+
+
 /* Landing Page */
 
 /* Gradient box background */
@@ -28,10 +30,12 @@ a {
     padding: 1.25rem;
 }
 
+
 /* Page Header */
 .header {
     overflow: hidden;
-    background-color: #F6F4FF;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     padding: 10px;
     position: sticky;
     top: 0;
@@ -47,23 +51,25 @@ a {
 /* Header links */
 .header a {
     float: left;
-    color: #696767;
+    color: #555555;
     text-align: center;
-    padding: 20px;
-    letter-spacing: 0.1em;
-    text-decoration: none;
-    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 18px;
     line-height: 40px;
     border-radius: 4px;
 }
 
 .header a:hover {
-    color: #3F346E;
-    background-color: #FBFCFF;
+    color: #181818;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .header a.active {
-    color: #000000;
+    color: #181818;
+    font-weight: 500;
 
 }
 
